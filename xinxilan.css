@@ -1,0 +1,36 @@
+p {
+  padding-left: 30px;
+  background-color: black;
+}
+.box {
+  background-color: black;
+  float: right;
+}
+a:link nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    font-size: 13px;
+    padding: 10px 5px 10px 5px;
+  }
+  a {
+    text-decoration: none;
+  }
+  nav {
+    background-color: black;
+  }
+  li {
+    display: inline;
+  }
+  .oop {
+    color:cornflowerblue;
+    padding: 5px 10px 10px 10px;
+    text-align: center;
+  }
+  h1, h2, h3, h4 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .zi {
+    background-color: white;
+  }
