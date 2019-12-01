@@ -26,6 +26,7 @@ a:link nav ul li {
     color:cornflowerblue;
     padding: 5px 10px 10px 10px;
     text-align: center;
+   1px solid cornflowerblue;
   }
   h1, h2, h3, h4 {
     text-align: center;
@@ -33,4 +34,15 @@ a:link nav ul li {
   }
   .zi {
     background-color: white;
+  }
+  .abb {
+    background-color: black;
+  }
+  h5, h6{
+    font-size: 10px;
+    color: white;
+    background-color: black;
+  }
+  h6 span {
+    text-decoration: underline;
   }
