@@ -1,17 +1,25 @@
-p {
-  padding-left: 30px;
-  background-color: black;
+body {
+  margin: 0px;
 }
-.box {
+.top {
+  font-size: 20px;
+  padding: 10px 10px 5px 10px;
   background-color: black;
+  font-size: 10px;
+}
+.headerLogo {
+  padding-right: 20px;
+}
+.headerslo {
   float: right;
+  background-color: black;
 }
 a:link nav ul li {
     list-style-type: none;
     display: inline-block;
     color: white;
     font-size: 13px;
-    padding: 10px 5px 10px 5px;
+    padding: 5px 5px 5px 5px;
   }
   a {
     text-decoration: none;
@@ -26,7 +34,6 @@ a:link nav ul li {
     color:cornflowerblue;
     padding: 5px 10px 10px 10px;
     text-align: center;
-   1px solid cornflowerblue;
   }
   h1, h2, h3, h4 {
     text-align: center;
