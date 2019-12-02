@@ -7,9 +7,6 @@ body {
   background-color: black;
   font-size: 10px;
 }
-.headerLogo {
-  padding-right: 20px;
-}
 .headerslo {
   float: right;
   background-color: black;
@@ -21,8 +18,9 @@ a:link nav ul li {
     font-size: 13px;
     padding: 5px 5px 5px 5px;
   }
-  a {
-    text-decoration: none;
+  a:hover nav ul li {
+    text-decoration: underline;
+    color: aquamarine;
   }
   nav {
     background-color: black;
@@ -30,14 +28,21 @@ a:link nav ul li {
   li {
     display: inline;
   }
-  .oop {
-    color:cornflowerblue;
-    padding: 5px 10px 10px 10px;
+  h1, h2, h3, h4 {
+    color: #2d2d2d;
+    line-height: 1;
+    margin: 1em 0 0.25em;
     text-align: center;
   }
-  h1, h2, h3, h4 {
-    text-align: center;
-    font-size: 25px;
+  a {
+    color: #2db6e8;
+    font-family: inherit;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #2db6e8;
   }
   .zi {
     background-color: white;
@@ -53,3 +58,55 @@ a:link nav ul li {
   h6 span {
     text-decoration: underline;
   }
+  .opaka {
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 20px;
+    position: static;
+  }
+  .promblock {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: inherit;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  .promtext {
+    font-size: 15px;
+  }
+  .obutton {
+  border-width: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 1;
+  font-size: 0.8rem;
+  border: 1px solid #2db6e8;
+  color: #fff;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  background-color: #2db6e8;
+  }
+  .icon-list__item svg { 
+  fill: currentColor;
+  display: block;
+  height: 19vw;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 80px;
+  max-width: 80px;
+  width: 19vw;
+  }
+  .o-icon svg {
+  fill: currentColor;
+  display: block;
+  height: 19vw;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 80px;
+  max-width: 80px;
+  width: 19vw;
+  }
+  
