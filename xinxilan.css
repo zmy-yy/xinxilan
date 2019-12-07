@@ -8,14 +8,14 @@ body {
 }
 .headerLogo {
   padding-top: 15px;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 a:link nav ul li {
   list-style-type: none;
   display: inline-block;
   color: white;
   font-size: 15px;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 15px 0px 5px;
   }
 a:hover nav ul li {
   text-decoration: underline;
@@ -59,18 +59,18 @@ a:hover {
   color: #2db6e8;
   }
 .tu1 {
-  width: 550px;
-  height: 270px;
+  width: 255.5px;
+  height: 255.5px;
   padding: 10px 5px 5px 20px;
 }
 .tu2 {
-  width: 250px;
-  height: 270px;
+  width: 260px;
+  height: 255.5px;
   padding: 10px 5px 5px 20px;
 }
 .tu3 {
-  width: 260px;
-  height: 250px;
+  width: 255.5px;
+  height: 255.5px;
   padding: 10px 5px 5px 20px;
 }
 .zi {
@@ -79,8 +79,54 @@ a:hover {
   text-align: center;
   padding-top: 10px;
   }
+a:hover nav ul li {
+  text-decoration: underline;
+  color: aquamarine;
+  }
+nav {
+  background-color: rgb(5, 4, 4);
+  }
+li {
+  display: inline;
+  }
+.shipin {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0px 0px 0px 0px;
+  }
+a {
+  color: #2db6e8;
+  font-size: 15px;
+  text-decoration: none;
+  }
+a:hover {
+  text-decoration: underline;
+  color: #2db6e8;
+  }
+.copy {
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: 0;
+}
+.coppy {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.copyy {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.zi {
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  padding: 0px;
+  }
 .zi1 {
-    color: rgb(66, 65, 65);
+    color: black;
     font-size: 15px;
     padding-left: 165px;
     padding-top: 0px;
@@ -119,6 +165,26 @@ h6 span {
   }
 .promblock {
   font-family: Verdana, Tahoma, sans-serif;
+}
+.abb {
+  background-color: black;
+  }
+h5, h6{
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  }
+h6 span {
+  text-decoration: underline;
+  }
+.opaka {
+  background-color: #2d2d2d;
+  color: #fff;
+  padding: 20px;
+  position: static;
+  }
+.promblock {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: x-large;
   color: inherit;
   font-weight: 400;
@@ -150,7 +216,7 @@ h6 span {
   max-height: 80px;
   max-width: 80px;
   }
-.js-icon svg {
+.o-icon svg {
   fill: currentColor;
   display: inline;
   margin-left: auto;
@@ -203,4 +269,23 @@ p {
   height: 10px;
   width: 20px;
   fill: currentColor;
+}
+.tu1 {
+  width: 550px;
+  height: 270px;
+  padding: 10px 5px 5px 20px;
+}
+.tu2 {
+  width: 250px;
+  height: 270px;
+  padding: 10px 5px 5px 20px;
+}
+.tu3 {
+  width: 260px;
+  height: 250px;
+  padding: 10px 5px 5px 20px;
+}
+.banner {
+  width: 100%;
+  height: 100%;
 }
